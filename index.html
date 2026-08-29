@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Four in a Row | Trivia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="overrides.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#play" data-view="play"><span class="brand-mark">4</span><span>TRIVIA GRID</span></a>
+      <nav aria-label="Main navigation">
+        <button class="nav-link active" data-view="play">Play</button>
+        <button class="nav-link" data-view="settings">Question studio</button>
+      </nav>
+      <button id="new-game" class="button ghost">New game</button>
+    </header>
+
+    <section id="play" class="view active">
+      <aside class="score-panel team-a-panel">
+        <p class="eyebrow">Team 01</p><h2 id="team-a-name">Solaris</h2>
+        <div class="score" id="team-a-score">0</div><p>claimed squares</p>
+      </aside>
+      <section class="game-area">
+        <div class="turn-row">
+          <div><p class="eyebrow">Now playing</p><h1 id="turn-label">Solaris' turn</h1></div>
+          <div class="timer" id="timer" aria-live="polite">30</div>
+        </div>
+        <p id="game-status" class="game-status">Choose an unclaimed tile to start the clock.</p>
+        <div id="grid" class="grid" aria-label="Trivia question grid"></div>
+        <div class="game-actions">
+          <button id="start-timer" class="button dark">Start 30 seconds</button>
+          <button id="open-projector" class="button secondary">Projector mode</button>
+          <button id="end-game" class="button danger">End &amp; score</button>
+        </div>
+      </section>
+      <aside class="score-panel team-b-panel">
+        <p class="eyebrow">Team 02</p><h2 id="team-b-name">Orbit</h2>
+        <div class="score" id="team-b-score">0</div><p>claimed squares</p>
+      </aside>
+    </section>
+
+    <section id="settings" class="view studio-view">
+      <div class="section-heading"><p class="eyebrow">Control room</p><h1>Question studio</h1><p>Set up the teams, grid and every prompt before the match.</p></div>
+      <div class="settings-layout">
+        <form id="game-settings" class="settings-card">
+          <h2>Match setup</h2>
+          <label>Team 01 <input id="input-team-a" maxlength="22" required></label>
+          <label>Team 02 <input id="input-team-b" maxlength="22" required></label>
+          <div class="field-row"><label>Grid size <select id="input-size"><option value="3">3 × 3</option><option value="4">4 × 4</option><option value="5" selected>5 × 5</option><option value="6">6 × 6</option><option value="7">7 × 7</option></select></label>
+          <label>Line to win <select id="input-line"><option value="3">3</option><option value="4" selected>4</option><option value="5">5</option></select></label></div>
+          <button class="button dark" type="submit">Apply &amp; restart match</button>
+          <p class="note">Changing setup starts a fresh match. Questions are kept where possible.</p>
+        </form>
+        <div class="settings-card import-card"><h2>Question tools</h2><p>Use the editor below to tailor every square. Want a fresh set?</p><button id="load-sample" class="button secondary">Load sample questions</button><button id="clear-claims" class="button ghost">Clear claimed squares</button></div>
+      </div>
+      <div class="question-list-header"><div><h2>Grid questions</h2><p id="question-count">25 prompts</p></div></div>
+      <div id="question-editor" class="question-editor"></div>
+    </section>
+
+  </main>
+
+  <section id="projector-overlay" class="projector-overlay" aria-label="Projector display">
+    <button id="close-projector" class="projector-close" aria-label="Exit projector mode">×</button>
+    <div class="projector-header"><div class="brand"><span class="brand-mark">4</span><span>TRIVIA GRID</span></div><div id="projector-turn" class="projector-turn">Solaris' turn</div><div class="projector-score"><span id="projector-a">Solaris 0</span><i></i><span id="projector-b">Orbit 0</span></div></div>
+    <div id="projector-question" class="projector-question empty">Choose a tile to reveal its question</div>
+    <div id="projector-grid" class="projector-grid"></div>
+  </section>
+
+  <dialog id="question-modal">
+    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+    <h2 id="modal-question">Question</h2>
+    <div class="judge-row"><button id="incorrect" class="button ghost">Incorrect / pass</button><button id="correct" class="button dark">Correct — claim square</button></div>
+  </dialog>
+  <dialog id="winner-modal" class="winner-modal"><p class="eyebrow">Match complete</p><h2 id="winner-title">Solaris wins!</h2><p id="winner-copy"></p><button id="winner-new-game" class="button dark">Play again</button></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
