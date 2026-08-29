@@ -17,7 +17,7 @@
       <nav aria-label="Main navigation">
         <button class="nav-link active" data-view="play">Play</button>
         <button class="nav-link" data-view="settings">Question studio</button>
-        <button class="nav-link" data-view="players">Players</button>
+        <a class="nav-link player-link" href="players.html">Players</a>
       </nav>
       <button id="new-game" class="button ghost">New game</button>
     </header>
@@ -61,13 +61,6 @@
       </div>
       <div class="question-list-header"><div><h2>Grid questions</h2><p id="question-count">25 prompts</p></div></div>
       <div id="question-editor" class="question-editor"></div>
-    </section>
-
-    <section id="players" class="view player-view">
-      <div class="player-top"><p class="eyebrow">Live match</p><h1 id="player-turn">Solaris' turn</h1><div id="player-timer" class="player-timer">30</div></div>
-      <p id="player-question" class="player-question">Select a square to reveal the question.</p>
-      <div id="player-grid" class="player-grid" aria-label="Live game board"></div>
-      <div class="player-scores"><span id="player-a">Solaris · 0</span><span id="player-b">Orbit · 0</span></div>
     </section>
 
   </main>
