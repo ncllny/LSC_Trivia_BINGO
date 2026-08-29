@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="team-theme-v4.css" />
   <link rel="stylesheet" href="countdown-v5.css" />
   <link rel="stylesheet" href="full-background-v6.css" />
+  <link rel="stylesheet" href="question-stage-v7.css" />
 </head>
 <body>
   <main class="app-shell">
@@ -80,7 +81,7 @@
 
   <section id="question-stage" class="question-stage" aria-live="polite">
     <button class="stage-close" id="stage-close" aria-label="Close question">×</button>
-    <p class="eyebrow">Trivia BINGO</p><h2 id="stage-question"></h2><img id="stage-image" class="stage-image hidden" alt="Question image">
+    <aside id="stage-timer" class="stage-timer">30</aside><p class="eyebrow">Trivia BINGO</p><h2 id="stage-question"></h2><img id="stage-image" class="stage-image hidden" alt="Question image">
     <div class="judge-row"><button id="stage-incorrect" class="button ghost">Incorrect / pass</button><button id="stage-correct" class="button dark">Correct — claim square</button></div>
   </section>
   <dialog id="winner-modal" class="winner-modal"><p class="eyebrow">Match complete</p><h2 id="winner-title">Solaris wins!</h2><p id="winner-copy"></p><button id="winner-new-game" class="button dark">Play again</button></dialog>
