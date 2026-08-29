@@ -1,0 +1,4 @@
+/* Keep the countdown centered in the right-side player area. */
+@media (min-width:801px){#player-timer{position:fixed!important;right:8vw!important;top:52vh!important;transform:translateY(-50%);width:clamp(150px,12vw,210px)!important;font-size:clamp(58px,5.8vw,90px)!important;z-index:3}}
+@media (max-width:800px){#player-timer{position:static!important;transform:none}}
+
