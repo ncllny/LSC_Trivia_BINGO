@@ -17,6 +17,7 @@
       <nav aria-label="Main navigation">
         <button class="nav-link active" data-view="play">Play</button>
         <button class="nav-link" data-view="settings">Question studio</button>
+        <button class="nav-link" data-view="players">Players</button>
       </nav>
       <button id="new-game" class="button ghost">New game</button>
     </header>
@@ -35,7 +36,6 @@
         <div id="grid" class="grid" aria-label="Trivia question grid"></div>
         <div class="game-actions">
           <button id="start-timer" class="button dark">Start 30 seconds</button>
-          <button id="open-projector" class="button secondary">Projector mode</button>
           <button id="end-game" class="button danger">End &amp; score</button>
         </div>
       </section>
@@ -63,14 +63,14 @@
       <div id="question-editor" class="question-editor"></div>
     </section>
 
-  </main>
+    <section id="players" class="view player-view">
+      <div class="player-top"><p class="eyebrow">Live match</p><h1 id="player-turn">Solaris' turn</h1><div id="player-timer" class="player-timer">30</div></div>
+      <p id="player-question" class="player-question">Select a square to reveal the question.</p>
+      <div id="player-grid" class="player-grid" aria-label="Live game board"></div>
+      <div class="player-scores"><span id="player-a">Solaris · 0</span><span id="player-b">Orbit · 0</span></div>
+    </section>
 
-  <section id="projector-overlay" class="projector-overlay" aria-label="Projector display">
-    <button id="close-projector" class="projector-close" aria-label="Exit projector mode">×</button>
-    <div class="projector-header"><div class="brand"><span class="brand-mark">4</span><span>TRIVIA GRID</span></div><div id="projector-turn" class="projector-turn">Solaris' turn</div><div class="projector-score"><span id="projector-a">Solaris 0</span><i></i><span id="projector-b">Orbit 0</span></div></div>
-    <div id="projector-question" class="projector-question empty">Choose a tile to reveal its question</div>
-    <div id="projector-grid" class="projector-grid"></div>
-  </section>
+  </main>
 
   <dialog id="question-modal">
     <button class="modal-close" id="modal-close" aria-label="Close">×</button>
@@ -81,3 +81,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+
