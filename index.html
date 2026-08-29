@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="timer-controls-v9.css" />
   <link rel="stylesheet" href="question-timer-fix-v10.css" />
   <link rel="stylesheet" href="start-flow-v11.css" />
+  <link rel="stylesheet" href="multi-images-v12.css" />
 </head>
 <body>
   <main class="app-shell">
@@ -38,7 +39,7 @@
       </aside>
       <section class="game-area">
         <div class="turn-row">
-          <div><p class="eyebrow">Now playing</p><h1 id="turn-label">Solaris' turn</h1></div>
+          <div><p class="eyebrow">Now playing</p><h1 id="turn-label">It's Solaris's turn</h1></div>
           <div class="timer" id="timer" aria-live="polite">30</div>
         </div>
         <p id="game-status" class="game-status">Choose an unclaimed tile to start the clock.</p>
@@ -76,7 +77,7 @@
 
     <section id="players" class="view player-view active">
       <div class="player-board">
-        <aside class="player-turn-side"><p class="eyebrow">Now playing</p><h1 id="player-turn">Solaris' turn</h1></aside>
+        <aside class="player-turn-side"><p class="eyebrow">Now playing</p><h1 id="player-turn">It's Solaris's turn</h1></aside>
         <div class="player-board-main"><div id="player-grid" class="player-grid" aria-label="Live game board"></div></div>
         <aside id="player-timer" class="player-timer" aria-label="Seconds remaining">30</aside>
       </div>
@@ -94,11 +95,10 @@
 
   <section id="question-stage" class="question-stage" aria-live="polite">
     <button class="stage-close" id="stage-close" aria-label="Close question">×</button>
-    <aside id="stage-timer" class="stage-timer">30</aside><p class="eyebrow">Trivia BINGO</p><h2 id="stage-question"></h2><img id="stage-image" class="stage-image hidden" alt="Question image">
+    <aside id="stage-timer" class="stage-timer">30</aside><p class="eyebrow">Trivia BINGO</p><h2 id="stage-question"></h2><div id="stage-images" class="stage-images"></div>
     <div class="judge-row"><button id="stage-incorrect" class="button ghost">Incorrect / pass</button><button id="stage-correct" class="button dark">Correct — claim square</button></div>
   </section>
   <dialog id="winner-modal" class="winner-modal"><p class="eyebrow">Match complete</p><h2 id="winner-title">Solaris wins!</h2><p id="winner-copy"></p><button id="winner-new-game" class="button dark">Play again</button></dialog>
   <script src="app-v4.js"></script>
 </body>
 </html>
-
