@@ -1,0 +1,3 @@
+/* Team state and full-screen player presentation. */
+.tile.tried-a,.tile.tried-b{background:#ffe36b!important;color:#625100!important}.player-view.team-a-turn{background:#fff0e9}.player-view.team-b-turn{background:#edf2ff}:fullscreen{background:var(--cream)}:fullscreen .topbar{display:none}:fullscreen .app-shell{max-width:none;padding:0}:fullscreen .player-view{height:100dvh;min-height:0;padding:18px 4vw}:fullscreen .player-view.team-a-turn{background:#fff0e9}:fullscreen .player-view.team-b-turn{background:#edf2ff}:fullscreen #new-game{display:none}
+
