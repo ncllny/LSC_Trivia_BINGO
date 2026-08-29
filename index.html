@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="team-corrections-v8.css" />
   <link rel="stylesheet" href="timer-controls-v9.css" />
   <link rel="stylesheet" href="question-timer-fix-v10.css" />
+  <link rel="stylesheet" href="start-flow-v11.css" />
 </head>
 <body>
   <main class="app-shell">
@@ -83,6 +84,13 @@
     </section>
 
   </main>
+
+  <section id="setup-stage" class="setup-stage" aria-label="Start game setup">
+    <div class="setup-card">
+      <div id="setup-intro"><p class="eyebrow">Welcome</p><h1>Trivia BINGO</h1><p>Set up the teams, then begin the match.</p><button id="setup-begin" class="button dark">Start</button></div>
+      <form id="quick-setup" class="hidden"><p class="eyebrow">Match setup</p><h1>Who is playing?</h1><label>Team 01 <input id="setup-team-a" maxlength="22" required></label><label>Team 02 <input id="setup-team-b" maxlength="22" required></label><label>Starts first <select id="setup-starting-team"><option value="0">Team 01</option><option value="1">Team 02</option></select></label><button class="button dark" type="submit">Start game</button></form>
+    </div>
+  </section>
 
   <section id="question-stage" class="question-stage" aria-live="polite">
     <button class="stage-close" id="stage-close" aria-label="Close question">×</button>
