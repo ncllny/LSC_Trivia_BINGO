@@ -9,20 +9,22 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="overrides.css" />
+  <link rel="stylesheet" href="game.css" />
 </head>
 <body>
   <main class="app-shell">
     <header class="topbar">
       <a class="brand" href="#play" data-view="play"><span class="brand-mark">4</span><span>TRIVIA GRID</span></a>
       <nav aria-label="Main navigation">
-        <button class="nav-link active" data-view="play">Play</button>
+        <button class="nav-link active" data-view="players">Player view</button>
+        <button class="nav-link" data-view="play">Play</button>
         <button class="nav-link" data-view="settings">Question studio</button>
-        <a class="nav-link player-link" href="players.html">Players</a>
+        <button class="nav-link" data-view="players">Players</button>
       </nav>
       <button id="new-game" class="button ghost">New game</button>
     </header>
 
-    <section id="play" class="view active">
+    <section id="play" class="view">
       <aside class="score-panel team-a-panel">
         <p class="eyebrow">Team 01</p><h2 id="team-a-name">Solaris</h2>
         <div class="score" id="team-a-score">0</div><p>claimed squares</p>
@@ -61,6 +63,13 @@
       </div>
       <div class="question-list-header"><div><h2>Grid questions</h2><p id="question-count">25 prompts</p></div></div>
       <div id="question-editor" class="question-editor"></div>
+    </section>
+
+    <section id="players" class="view player-view active">
+      <div class="player-top"><p class="eyebrow">Now playing</p><h1 id="player-turn">Solaris' turn</h1><div id="player-timer" class="player-timer">30</div></div>
+      <p id="player-question" class="player-question">Click a square to view its question.</p>
+      <div id="player-grid" class="player-grid" aria-label="Live game board"></div>
+      <div class="player-scores"><span id="player-a">Solaris · 0</span><span id="player-b">Orbit · 0</span></div>
     </section>
 
   </main>
