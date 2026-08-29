@@ -1,0 +1,2 @@
+html:has(body.player-mode){background:#f6f1e8}body.player-mode.player-team-a,body.player-mode.player-team-a .app-shell{background:#ffb6a3!important}body.player-mode.player-team-b,body.player-mode.player-team-b .app-shell{background:#b9c8ff!important}body.player-mode .topbar{border-color:rgba(22,24,25,.2)}body.player-mode .player-view{background:transparent!important}
+
