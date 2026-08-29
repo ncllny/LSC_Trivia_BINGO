@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="full-background-v6.css" />
   <link rel="stylesheet" href="question-stage-v7.css" />
   <link rel="stylesheet" href="team-corrections-v8.css" />
+  <link rel="stylesheet" href="timer-controls-v9.css" />
 </head>
 <body>
   <main class="app-shell">
@@ -60,6 +61,7 @@
           <label>Team 02 <input id="input-team-b" maxlength="22" required></label>
           <div class="field-row"><label>Grid size <select id="input-size"><option value="3">3 × 3</option><option value="4">4 × 4</option><option value="5" selected>5 × 5</option><option value="6">6 × 6</option><option value="7">7 × 7</option></select></label>
           <label>Line to win <select id="input-line"><option value="3">3</option><option value="4" selected>4</option><option value="5">5</option></select></label></div>
+          <label>Seconds per question <input id="input-duration" type="number" min="5" max="300" step="5" value="30" required></label>
           <button class="button dark" type="submit">Apply &amp; restart match</button>
           <p class="note">Changing setup starts a fresh match. Questions are kept where possible.</p>
         </form>
