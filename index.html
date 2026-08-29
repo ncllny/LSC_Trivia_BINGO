@@ -64,9 +64,11 @@
     </section>
 
     <section id="players" class="view player-view active">
-      <div class="player-top"><p class="eyebrow">Now playing</p><h1 id="player-turn">Solaris' turn</h1><div id="player-timer" class="player-timer">30</div></div>
-      <p id="player-question" class="player-question">Click a square to view its question.</p>
-      <div id="player-grid" class="player-grid" aria-label="Live game board"></div>
+      <div class="player-board">
+        <aside class="player-turn-side"><p class="eyebrow">Now playing</p><h1 id="player-turn">Solaris' turn</h1></aside>
+        <div class="player-board-main"><p id="player-question" class="player-question"></p><div id="player-grid" class="player-grid" aria-label="Live game board"></div></div>
+        <aside id="player-timer" class="player-timer" aria-label="Seconds remaining">30</aside>
+      </div>
       <div class="player-scores"><span id="player-a">Solaris · 0</span><span id="player-b">Orbit · 0</span></div>
     </section>
 
