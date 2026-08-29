@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="overrides.css" />
-  <link rel="stylesheet" href="game.css" />
+  <link rel="stylesheet" href="player-layout-v2.css" />
 </head>
 <body>
   <main class="app-shell">
@@ -66,7 +66,7 @@
     <section id="players" class="view player-view active">
       <div class="player-board">
         <aside class="player-turn-side"><p class="eyebrow">Now playing</p><h1 id="player-turn">Solaris' turn</h1></aside>
-        <div class="player-board-main"><p id="player-question" class="player-question"></p><div id="player-grid" class="player-grid" aria-label="Live game board"></div></div>
+        <div class="player-board-main"><div id="player-grid" class="player-grid" aria-label="Live game board"></div></div>
         <aside id="player-timer" class="player-timer" aria-label="Seconds remaining">30</aside>
       </div>
       <div class="player-scores"><span id="player-a">Solaris · 0</span><span id="player-b">Orbit · 0</span></div>
@@ -74,13 +74,13 @@
 
   </main>
 
-  <dialog id="question-modal">
-    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
-    <h2 id="modal-question">Question</h2>
-    <div class="judge-row"><button id="incorrect" class="button ghost">Incorrect / pass</button><button id="correct" class="button dark">Correct — claim square</button></div>
-  </dialog>
+  <section id="question-stage" class="question-stage" aria-live="polite">
+    <button class="stage-close" id="stage-close" aria-label="Close question">×</button>
+    <p class="eyebrow">Trivia BINGO</p><h2 id="stage-question"></h2><img id="stage-image" class="stage-image hidden" alt="Question image">
+    <div class="judge-row"><button id="stage-incorrect" class="button ghost">Incorrect / pass</button><button id="stage-correct" class="button dark">Correct — claim square</button></div>
+  </section>
   <dialog id="winner-modal" class="winner-modal"><p class="eyebrow">Match complete</p><h2 id="winner-title">Solaris wins!</h2><p id="winner-copy"></p><button id="winner-new-game" class="button dark">Play again</button></dialog>
-  <script src="app.js"></script>
+  <script src="app-v2.js"></script>
 </body>
 </html>
 
