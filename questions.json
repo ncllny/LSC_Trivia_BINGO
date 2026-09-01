@@ -118,9 +118,10 @@
     "instructions": "Press Start. The first word is LIGHT. Go around the team: each player says one new word linked to the previous word. Eight valid links are needed."
   },
   {
-    "text": "Picture guessing challenge: identify the object in each picture. Each player gives one answer.",
-    "answer": "8 correct names.",
-    "sourceNumber": 58
+    "text": "Picture reveal: the same mystery picture is uncovered piece by piece. Discuss together, then give one final answer.",
+    "answer": "Correct final picture.",
+    "sourceNumber": 58,
+    "instructions": "Press Start. Reveal the same picture one part at a time. Discuss together, then give one final answer."
   },
   {
     "text": "One word each, A to H.",
