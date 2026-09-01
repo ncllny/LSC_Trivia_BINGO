@@ -127,8 +127,8 @@
     "sourceNumber": 30
   },
   {
-    "text": "One player gives one item in the category.",
-    "answer": "8 different valid items.",
+    "text": "Category: Things you find in a kitchen. Each player names a different item.",
+    "answer": "8 different kitchen items.",
     "sourceNumber": 56
   }
 ]
