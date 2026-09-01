@@ -1,10 +1,5 @@
 [
   {
-    "text": "Show 8 map pins. Each player identifies one country or city.",
-    "answer": "8 correct pins.",
-    "sourceNumber": 53
-  },
-  {
     "text": "Which DNA base pairs with adenine?\nA. Thymine  B. Cytosine  C. Guanine  D. Uracil",
     "answer": "Thymine.",
     "sourceNumber": 6
@@ -25,8 +20,8 @@
     "sourceNumber": 41
   },
   {
-    "text": "Each player solves one anagram.",
-    "answer": "8 correct words.",
+    "text": "Whole team: solve all 3 anagrams in 30 seconds — ASTRONMOY, CEFRO, NIRBA.",
+    "answer": "Astronomy, Force, Brain.",
     "sourceNumber": 59
   },
   {
@@ -65,19 +60,9 @@
     "sourceNumber": 43
   },
   {
-    "text": "Show 8 flags. One player names one country.",
-    "answer": "8 correct countries.",
-    "sourceNumber": 51
-  },
-  {
     "text": "One word each: explain photosynthesis.",
     "answer": "Correct 8-word explanation.",
     "sourceNumber": 33
-  },
-  {
-    "text": "One player gives the next number in one sequence.",
-    "answer": "8 correct terms.",
-    "sourceNumber": 57
   },
   {
     "text": "Reveal one picture part at a time. Every player gives one guess.",
@@ -88,11 +73,6 @@
     "text": "One word each, A to H.",
     "answer": "8 correct words in order.",
     "sourceNumber": 30
-  },
-  {
-    "text": "One player gives one unusual use for an object.",
-    "answer": "8 different sensible ideas.",
-    "sourceNumber": 60
   },
   {
     "text": "Show 8 landmarks and 8 countries. One match per player.",
@@ -108,11 +88,6 @@
     "text": "One player identifies one silhouette.",
     "answer": "8 correct names.",
     "sourceNumber": 58
-  },
-  {
-    "text": "One player solves one emoji title.",
-    "answer": "8 correct titles.",
-    "sourceNumber": 52
   },
   {
     "text": "Each player adds one linked word.",
