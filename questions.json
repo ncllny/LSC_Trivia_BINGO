@@ -23,7 +23,8 @@
   {
     "text": "Identify the laboratory technique shown: liquid from a burette is added to a flask until an endpoint.",
     "answer": "Titration.",
-    "sourceNumber": 25
+    "sourceNumber": 25,
+    "instructions": "Look at the equipment in the picture. Name the laboratory technique being used."
   },
   {
     "text": "Each player names one different country and its capital.",
