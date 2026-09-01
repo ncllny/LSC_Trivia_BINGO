@@ -42,10 +42,10 @@
     "sourceNumber": 6
   },
   {
-    "text": "Fact or Fiction relay: each player judges one quick statement.",
-    "answer": "8 correct judgments.",
+    "text": "Look at the picture. What letter replaces the question mark?",
+    "answer": "F — it stands for Five.",
     "sourceNumber": 55,
-    "instructions": "Press Start. Read eight quick statements. Each team member must answer Fact or Fiction for one statement."
+    "instructions": "The letters are the first letters of the numbers One to Ten. Take one final answer."
   },
   {
     "text": "Alphabet animal relay: each team member says a different animal in alphabetical order.",
@@ -71,9 +71,10 @@
     "instructions": "Press Start. Solve the anagram on screen, then press Next for the next one. The team must solve all three within the time limit."
   },
   {
-    "text": "Reveal one picture part at a time. Every player gives one guess.",
-    "answer": "Correct final picture.",
-    "sourceNumber": 50
+    "text": "Study the picture and work out the four-digit passcode.",
+    "answer": "Four-digit passcode — host confirmation needed.",
+    "sourceNumber": 50,
+    "instructions": "Show the supplied code puzzle. The team discusses it and gives one four-digit answer."
   },
   {
     "text": "What comes once in a minute, twice in a moment, but never in a thousand years?",
