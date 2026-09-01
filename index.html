@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="start-flow-v11.css" />
   <link rel="stylesheet" href="multi-images-v12.css" />
   <link rel="stylesheet" href="fullscreen-clean-v13.css" />
+  <link rel="stylesheet" href="challenge-flow-v14.css" />
 </head>
 <body>
   <main class="app-shell">
@@ -94,10 +95,23 @@
     </div>
   </section>
 
-  <section id="question-stage" class="question-stage" aria-live="polite">
-    <button class="stage-close" id="stage-close" aria-label="Close question">×</button>
-    <aside id="stage-timer" class="stage-timer">30</aside><p class="eyebrow">Trivia BINGO</p><h2 id="stage-question"></h2><div id="stage-images" class="stage-images"></div>
-    <div class="judge-row"><button id="stage-incorrect" class="button ghost">Incorrect / pass</button><button id="stage-correct" class="button dark">Correct — claim square</button></div>
+  <section id="question-stage" class="question-stage challenge-stage" aria-live="polite">
+    <button class="stage-close" id="stage-close" aria-label="Close challenge">×</button>
+    <aside id="stage-timer" class="stage-timer" hidden>30</aside>
+    <div class="challenge-content">
+      <p class="eyebrow">TRIVIA BINGO</p>
+      <p id="stage-kind" class="challenge-kind">Trivia challenge</p>
+      <p id="stage-progress" class="challenge-progress">Instructions</p>
+      <h2 id="stage-title"></h2>
+      <p id="stage-instructions" class="challenge-instructions"></p>
+      <div id="stage-media" class="challenge-media"></div>
+      <button id="stage-start" class="button dark stage-start">Start challenge</button>
+      <div id="stage-navigation" class="challenge-navigation" hidden>
+        <button id="stage-previous" class="button ghost">Previous</button>
+        <button id="stage-next" class="button secondary">Next</button>
+      </div>
+      <div id="stage-judge" class="judge-row" hidden><button id="stage-incorrect" class="button ghost">Incorrect / pass</button><button id="stage-correct" class="button dark">Correct — claim square</button></div>
+    </div>
   </section>
   <dialog id="winner-modal" class="winner-modal"><p class="eyebrow">Match complete</p><h2 id="winner-title">Solaris wins!</h2><p id="winner-copy"></p><button id="winner-new-game" class="button dark">Play again</button></dialog>
   <script src="app-v5.js"></script>
