@@ -71,10 +71,10 @@
     "instructions": "Press Start. Solve the anagram on screen, then press Next for the next one. The team must solve all three within the time limit."
   },
   {
-    "text": "Study the picture and work out the four-digit passcode.",
-    "answer": "8713.",
+    "text": "Use the picture to find the one-number answer.",
+    "answer": "8. The pairs spell EIGHT.",
     "sourceNumber": 50,
-    "instructions": "Each pair means: take the second digit’s letter from the first digit’s number word (e.g. 41 = first letter of Four = F). Decode the four rows to get the passcode."
+    "instructions": "Use the two hints in the picture. For each pair, the first digit names a number and the second digit selects a letter from that number word. Give the final answer as one number."
   },
   {
     "text": "What comes once in a minute, twice in a moment, but never in a thousand years?",
