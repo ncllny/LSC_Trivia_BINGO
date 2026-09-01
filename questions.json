@@ -105,10 +105,10 @@
     "sourceNumber": 31
   },
   {
-    "text": "How many squares are in the grid?",
+    "text": "Count the squares in the grid.",
     "answer": "30.",
     "sourceNumber": 41,
-    "instructions": "Look at the grid and give one final answer."
+    "instructions": "How many squares can you find?"
   },
   {
     "text": "Word-link relay — the first word is LIGHT. Each player adds one word linked to the word before it.",
