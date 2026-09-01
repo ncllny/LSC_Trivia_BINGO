@@ -1,8 +1,127 @@
 [
-  {"text":"What is the chemical symbol for gold?"},{"text":"What is 12 × 12?"},{"text":"If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops Lazzies?"},{"text":"What is the longest river in South America?"},{"text":"Which wall fell in 1989?"},
-  {"text":"What does CPU stand for?"},{"text":"How many sides does a hexagon have?"},{"text":"Which fictional wizard has a lightning-shaped scar?"},{"text":"How many players does a soccer team have on the pitch?"},{"text":"What has keys but cannot open locks?"},
-  {"text":"What planet is known as the Red Planet?"},{"text":"What is the square root of 81?"},{"text":"Which is heavier: a kilogram of feathers or a kilogram of bricks?"},{"text":"What is the capital of Japan?"},{"text":"Who was the first person to walk on the Moon?"},
-  {"text":"What does URL stand for?"},{"text":"What is the largest ocean on Earth?"},{"text":"In which franchise would you find a lightsaber?"},{"text":"In tennis, what is a score of zero called?"},{"text":"What gets wetter the more it dries?"},
-  {"text":"What gas do plants absorb from the atmosphere?"},{"text":"How many degrees are in a right angle?"},{"text":"What comes next: 2, 6, 12, 20, 30?"},{"text":"Which country has the most pyramids?"},{"text":"Which ancient civilization built Machu Picchu?"}
+  {
+    "text": "Show 8 map pins. Each player identifies one country or city.",
+    "answer": "8 correct pins.",
+    "sourceNumber": 53
+  },
+  {
+    "text": "Which DNA base pairs with adenine?\nA. Thymine  B. Cytosine  C. Guanine  D. Uracil",
+    "answer": "Thymine.",
+    "sourceNumber": 6
+  },
+  {
+    "text": "Show 8 logos. Each player identifies one.",
+    "answer": "8 correct logos.",
+    "sourceNumber": 45
+  },
+  {
+    "text": "Each player names one different country and its capital.",
+    "answer": "8 correct country-capital pairs.",
+    "sourceNumber": 29
+  },
+  {
+    "text": "Four count; four check. How many squares?",
+    "answer": "30.",
+    "sourceNumber": 41
+  },
+  {
+    "text": "Each player solves one anagram.",
+    "answer": "8 correct words.",
+    "sourceNumber": 59
+  },
+  {
+    "text": "Which country has the most time zones when overseas territories are included?\nA. Russia  B. France  C. USA  D. China",
+    "answer": "France.",
+    "sourceNumber": 21
+  },
+  {
+    "text": "Show one busy picture for 5 seconds. One detail per player.",
+    "answer": "8 correct details.",
+    "sourceNumber": 46
+  },
+  {
+    "text": "Line up by birth month. No speaking.",
+    "answer": "Correct order.",
+    "sourceNumber": 31
+  },
+  {
+    "text": "Identify the WWII cipher machine shown.\nA. Enigma  B. Bombe  C. Telegraph  D. Typewriter",
+    "answer": "Enigma.",
+    "sourceNumber": 26
+  },
+  {
+    "text": "One player gives one item in the category.",
+    "answer": "8 different valid items.",
+    "sourceNumber": 56
+  },
+  {
+    "text": "What is the largest desert on Earth by area?",
+    "answer": "Antarctica.",
+    "sourceNumber": 19
+  },
+  {
+    "text": "No discussion. Each player says Right or Down once.",
+    "answer": "Reach target with 4 Right and 4 Down.",
+    "sourceNumber": 43
+  },
+  {
+    "text": "Show 8 flags. One player names one country.",
+    "answer": "8 correct countries.",
+    "sourceNumber": 51
+  },
+  {
+    "text": "One word each: explain photosynthesis.",
+    "answer": "Correct 8-word explanation.",
+    "sourceNumber": 33
+  },
+  {
+    "text": "One player gives the next number in one sequence.",
+    "answer": "8 correct terms.",
+    "sourceNumber": 57
+  },
+  {
+    "text": "Reveal one picture part at a time. Every player gives one guess.",
+    "answer": "Correct final picture.",
+    "sourceNumber": 50
+  },
+  {
+    "text": "One word each, A to H.",
+    "answer": "8 correct words in order.",
+    "sourceNumber": 30
+  },
+  {
+    "text": "One player gives one unusual use for an object.",
+    "answer": "8 different sensible ideas.",
+    "sourceNumber": 60
+  },
+  {
+    "text": "Show 8 landmarks and 8 countries. One match per player.",
+    "answer": "8 correct matches.",
+    "sourceNumber": 49
+  },
+  {
+    "text": "One player judges one fast fact.",
+    "answer": "8 correct judgments.",
+    "sourceNumber": 55
+  },
+  {
+    "text": "One player identifies one silhouette.",
+    "answer": "8 correct names.",
+    "sourceNumber": 58
+  },
+  {
+    "text": "One player solves one emoji title.",
+    "answer": "8 correct titles.",
+    "sourceNumber": 52
+  },
+  {
+    "text": "Each player adds one linked word.",
+    "answer": "8 valid links.",
+    "sourceNumber": 54
+  },
+  {
+    "text": "Each player adds one stroke.",
+    "answer": "Host recognises final object.",
+    "sourceNumber": 61
+  }
 ]
-
