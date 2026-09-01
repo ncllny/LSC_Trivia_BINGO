@@ -98,5 +98,30 @@
     "text": "Each player adds one stroke.",
     "answer": "Host recognises final object.",
     "sourceNumber": 61
+  },
+  {
+    "text": "Each team member says a different animal, in alphabetical order.",
+    "answer": "8 valid animals in order.",
+    "sourceNumber": 71
+  },
+  {
+    "text": "What has keys but cannot open locks?",
+    "answer": "A piano.",
+    "sourceNumber": 72
+  },
+  {
+    "text": "The more you take, the more you leave behind. What are they?",
+    "answer": "Footsteps.",
+    "sourceNumber": 73
+  },
+  {
+    "text": "What has hands but cannot clap?",
+    "answer": "A clock.",
+    "sourceNumber": 78
+  },
+  {
+    "text": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "answer": "The letter M.",
+    "sourceNumber": 81
   }
 ]
