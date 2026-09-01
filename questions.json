@@ -105,10 +105,10 @@
     "sourceNumber": 31
   },
   {
-    "text": "Count every square in the grid. Four team members count; four different members check the answer.",
+    "text": "How many squares are in the grid?",
     "answer": "30.",
     "sourceNumber": 41,
-    "instructions": "Press Start. Look at the grid. Four team members count all squares, then four different members check the total. Give one final answer."
+    "instructions": "Look at the grid and give one final answer."
   },
   {
     "text": "Word-link relay — the first word is LIGHT. Each player adds one word linked to the word before it.",
