@@ -54,10 +54,10 @@
     "instructions": "Press Start. Go around the team. Each player says one animal; every answer must be different and later in the alphabet than the one before it."
   },
   {
-    "text": "Eight-move route: start at the top-left of the grid. Each player says Right or Down once. Reach the bottom-right in exactly 8 moves.",
-    "answer": "Reach target with 4 Right and 4 Down.",
+    "text": "Find the rule: 123 = 14 and 234 = 29. What is 34?",
+    "answer": "25. Square each digit and add: 3² + 4².",
     "sourceNumber": 43,
-    "instructions": "Press Start. Begin at the top-left square. No discussion: each player says only Right or Down once. The team wins only if the path ends at the bottom-right after 8 moves."
+    "instructions": "Use the two examples only. The team gives one final answer within 30 seconds."
   },
   {
     "text": "Which WWII cipher machine is shown?\nA. Enigma  B. Bombe  C. Telegraph  D. Typewriter",
