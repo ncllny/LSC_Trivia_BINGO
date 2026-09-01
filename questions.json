@@ -1,8 +1,9 @@
 [
   {
-    "text": "Show one busy picture for 5 seconds. One detail per player.",
+    "text": "Study the picture for 5 seconds. Then each team member names one thing they saw.",
     "answer": "8 correct details.",
-    "sourceNumber": 46
+    "sourceNumber": 46,
+    "instructions": "Press Start. Show the picture for 5 seconds, then hide it. Go around the team: each player must name one different detail."
   },
   {
     "text": "What has keys but cannot open locks?",
@@ -20,9 +21,9 @@
     "sourceNumber": 19
   },
   {
-    "text": "Each player adds one stroke.",
-    "answer": "Host recognises final object.",
-    "sourceNumber": 61
+    "text": "Identify the laboratory technique shown: liquid from a burette is added to a flask until an endpoint.",
+    "answer": "Titration.",
+    "sourceNumber": 25
   },
   {
     "text": "Each player names one different country and its capital.",
@@ -40,29 +41,33 @@
     "sourceNumber": 6
   },
   {
-    "text": "One player judges one fast fact.",
+    "text": "Fact or Fiction relay: each player judges one quick statement.",
     "answer": "8 correct judgments.",
-    "sourceNumber": 55
+    "sourceNumber": 55,
+    "instructions": "Press Start. Read eight quick statements. Each team member must answer Fact or Fiction for one statement."
   },
   {
-    "text": "Each team member says a different animal, in alphabetical order.",
+    "text": "Alphabet animal relay: each team member says a different animal in alphabetical order.",
     "answer": "8 valid animals in order.",
-    "sourceNumber": 71
+    "sourceNumber": 71,
+    "instructions": "Press Start. Go around the team. Each player says one animal; every answer must be different and later in the alphabet than the one before it."
   },
   {
-    "text": "No discussion. Each player says Right or Down once.",
+    "text": "Eight-move route: start at the top-left of the grid. Each player says Right or Down once. Reach the bottom-right in exactly 8 moves.",
     "answer": "Reach target with 4 Right and 4 Down.",
-    "sourceNumber": 43
+    "sourceNumber": 43,
+    "instructions": "Press Start. Begin at the top-left square. No discussion: each player says only Right or Down once. The team wins only if the path ends at the bottom-right after 8 moves."
   },
   {
-    "text": "Identify the WWII cipher machine shown.\nA. Enigma  B. Bombe  C. Telegraph  D. Typewriter",
+    "text": "Which WWII cipher machine is shown?\nA. Enigma  B. Bombe  C. Telegraph  D. Typewriter",
     "answer": "Enigma.",
     "sourceNumber": 26
   },
   {
-    "text": "Whole team: solve all 3 anagrams in 30 seconds — ASTRONMOY, CEFRO, NIRBA.",
+    "text": "Solve the 3 anagrams together. One anagram appears in each round.",
     "answer": "Astronomy, Force, Brain.",
-    "sourceNumber": 59
+    "sourceNumber": 59,
+    "instructions": "Press Start. Solve the anagram on screen, then press Next for the next one. The team must solve all three within the time limit."
   },
   {
     "text": "Reveal one picture part at a time. Every player gives one guess.",
@@ -100,14 +105,16 @@
     "sourceNumber": 31
   },
   {
-    "text": "Four count; four check. How many squares?",
+    "text": "Count every square in the grid. Four team members count; four different members check the answer.",
     "answer": "30.",
-    "sourceNumber": 41
+    "sourceNumber": 41,
+    "instructions": "Press Start. Look at the grid. Four team members count all squares, then four different members check the total. Give one final answer."
   },
   {
-    "text": "Each player adds one linked word.",
+    "text": "Word-link relay — the first word is LIGHT. Each player adds one word linked to the word before it.",
     "answer": "8 valid links.",
-    "sourceNumber": 54
+    "sourceNumber": 54,
+    "instructions": "Press Start. The first word is LIGHT. Go around the team: each player says one new word linked to the previous word. Eight valid links are needed."
   },
   {
     "text": "One player identifies one silhouette.",
