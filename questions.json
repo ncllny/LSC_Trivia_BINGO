@@ -72,9 +72,9 @@
   },
   {
     "text": "Study the picture and work out the four-digit passcode.",
-    "answer": "Four-digit passcode — host confirmation needed.",
+    "answer": "8713.",
     "sourceNumber": 50,
-    "instructions": "Show the supplied code puzzle. The team discusses it and gives one four-digit answer."
+    "instructions": "Each pair means: take the second digit’s letter from the first digit’s number word (e.g. 41 = first letter of Four = F). Decode the four rows to get the passcode."
   },
   {
     "text": "What comes once in a minute, twice in a moment, but never in a thousand years?",
