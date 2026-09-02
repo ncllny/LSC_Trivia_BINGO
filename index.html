@@ -37,12 +37,12 @@
 
     <section id="play" class="view">
       <aside class="score-panel team-a-panel">
-        <p class="eyebrow">Team 01</p><h2 id="team-a-name">Solaris</h2>
+        <p class="eyebrow">Team 01</p><h2 id="team-a-name">Team Red</h2>
         <div class="score" id="team-a-score">0</div><p>claimed squares</p>
       </aside>
       <section class="game-area">
         <div class="turn-row">
-          <div><p class="eyebrow">Now playing</p><h1 id="turn-label">It's Solaris's turn</h1></div>
+          <div><p class="eyebrow">Now playing</p><h1 id="turn-label">Team Red</h1></div>
           <div class="timer" id="timer" aria-live="polite">30</div>
         </div>
         <p id="game-status" class="game-status">Choose an unclaimed tile to start the clock.</p>
@@ -53,19 +53,17 @@
         </div>
       </section>
       <aside class="score-panel team-b-panel">
-        <p class="eyebrow">Team 02</p><h2 id="team-b-name">Orbit</h2>
+        <p class="eyebrow">Team 02</p><h2 id="team-b-name">Team Blue</h2>
         <div class="score" id="team-b-score">0</div><p>claimed squares</p>
       </aside>
     </section>
 
     <section id="settings" class="view studio-view">
-      <div class="section-heading"><p class="eyebrow">Control room</p><h1>Question studio</h1><p>Set up the teams, grid and every prompt before the match.</p></div>
+      <div class="section-heading"><p class="eyebrow">Control room</p><h1>Question studio</h1><p>Set up the match, grid and every prompt before the game.</p></div>
       <div class="settings-layout">
         <form id="game-settings" class="settings-card">
           <h2>Match setup</h2>
-          <label>Team 01 <input id="input-team-a" maxlength="22" required></label>
-          <label>Team 02 <input id="input-team-b" maxlength="22" required></label>
-          <label>Starting team <select id="input-starting-team"><option value="0">Team 01</option><option value="1">Team 02</option></select></label>
+          <label>Starting team <select id="input-starting-team"><option value="0">Team Red</option><option value="1">Team Blue</option></select></label>
           <div class="field-row"><label>Grid size <select id="input-size"><option value="3">3 × 3</option><option value="4">4 × 4</option><option value="5" selected>5 × 5</option><option value="6">6 × 6</option><option value="7">7 × 7</option></select></label>
           <label>Line to win <select id="input-line"><option value="3">3</option><option value="4" selected>4</option><option value="5">5</option></select></label></div>
           <label>Seconds per question <input id="input-duration" type="number" min="5" max="300" step="5" value="30" required></label>
@@ -84,7 +82,7 @@
         <div class="player-board-main"><div id="player-grid" class="player-grid" aria-label="Live game board"></div></div>
         <aside id="player-timer" class="player-timer" aria-label="Seconds remaining">30</aside>
       </div>
-      <div class="player-scores"><span id="player-a">Solaris · 0</span><span id="player-b">Orbit · 0</span></div>
+      <div class="player-scores"><span id="player-a">Team Red · 0</span><span id="player-b">Team Blue · 0</span></div>
     </section>
 
   </main>
@@ -92,7 +90,7 @@
   <section id="setup-stage" class="setup-stage" aria-label="Start game setup">
     <div class="setup-card">
       <div id="setup-intro"><p class="eyebrow">Welcome</p><h1>Trivia BINGO</h1><p>Set up the teams, then begin the match.</p><button id="setup-begin" class="button dark">Start</button></div>
-      <form id="quick-setup" class="hidden"><p class="eyebrow">Match setup</p><h1>Who is playing?</h1><label>Team 01 <input id="setup-team-a" maxlength="22" required></label><label>Team 02 <input id="setup-team-b" maxlength="22" required></label><label>Starts first <select id="setup-starting-team"><option value="0">Team 01</option><option value="1">Team 02</option></select></label><button class="button dark" type="submit">Start game</button></form>
+      <form id="quick-setup" class="hidden"><p class="eyebrow">Match setup</p><h1>Who starts first?</h1><label>Starting team <select id="setup-starting-team"><option value="0">Team Red</option><option value="1">Team Blue</option></select></label><button class="button dark" type="submit">Start game</button></form>
     </div>
   </section>
 
@@ -115,6 +113,6 @@
     </div>
   </section>
   <dialog id="winner-modal" class="winner-modal"><p class="eyebrow">Match complete</p><h2 id="winner-title">Solaris wins!</h2><p id="winner-copy"></p><button id="winner-new-game" class="button dark">Play again</button></dialog>
-  <script src="app-v33.js"></script>
+  <script src="app-v34.js"></script>
 </body>
 </html>
