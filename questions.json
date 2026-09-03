@@ -83,9 +83,10 @@
     "sourceNumber": 81
   },
   {
-    "text": "Show 8 logos. Each player identifies one.",
+    "text": "Logo relay: identify 8 logos, with a different team member answering each one.",
     "answer": "8 correct logos.",
-    "sourceNumber": 45
+    "sourceNumber": 45,
+    "instructions": "Press Start. Show one logo at a time. Each team member identifies one logo; eight correct answers are needed."
   },
   {
     "text": "Which country has the most time zones when overseas territories are included?\nA. Russia  B. France  C. USA  D. China",
