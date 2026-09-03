@@ -1,0 +1,36 @@
+/* Question Studio control layout */
+.question-card > label{
+  display:block;
+  margin:0 0 14px;
+  font-size:13px;
+  font-weight:600;
+}
+.question-card > label > select,
+.question-card > label > input[type="number"],
+.question-card > label > textarea{
+  display:block;
+  width:100%;
+  margin-top:6px;
+}
+.question-card .question-selected{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:9px 10px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:#f6f1e8;
+}
+.question-card .question-selected input[type="checkbox"]{
+  display:inline-block;
+  width:18px;
+  height:18px;
+  margin:0;
+  padding:0;
+  accent-color:var(--ink);
+  flex:0 0 auto;
+}
+.question-card .question-selected strong,
+.question-card > label > strong{
+  display:block;
+}
