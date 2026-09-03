@@ -27,9 +27,10 @@
     "instructions": "Look at the equipment in the picture. Name the laboratory technique being used."
   },
   {
-    "text": "Each player names one different country and its capital.",
-    "answer": "8 correct country-capital pairs.",
-    "sourceNumber": 29
+    "text": "Team relay: one by one, each player names a different country and its continent.",
+    "answer": "8 correct country-continent pairs.",
+    "sourceNumber": 29,
+    "instructions": "Press Start. Go around the team: each player gives one different country and its continent. Eight correct pairs are needed."
   },
   {
     "text": "What has hands but cannot clap?",
