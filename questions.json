@@ -21,10 +21,11 @@
     "sourceNumber": 19
   },
   {
-    "text": "Identify the laboratory technique shown: liquid from a burette is added to a flask until an endpoint.",
-    "answer": "Titration.",
+    "text": "",
+    "answer": "MOON.",
     "sourceNumber": 25,
-    "instructions": "Look at the equipment in the picture. Name the laboratory technique being used."
+    "instructions": "",
+    "type": "preview"
   },
   {
     "text": "Team relay: one by one, each player names a different country and its continent.",
