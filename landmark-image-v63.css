@@ -1,0 +1,4 @@
+/* Tile 14 landmark relay: use a larger, easy-to-see picture on every round. */
+.challenge-stage.landmark-round .challenge-media{width:min(68vw,920px);margin:18px 0}
+.challenge-stage.landmark-round .challenge-media img{width:auto;min-height:30vh;max-height:48vh;max-width:62vw;object-fit:contain}
+@media(max-width:900px){.challenge-stage.landmark-round .challenge-media{width:min(92vw,720px)}.challenge-stage.landmark-round .challenge-media img{min-height:30vh;max-height:44vh;max-width:88vw}}
