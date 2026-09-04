@@ -12,7 +12,7 @@
     <path d="M904 104h178v37l-128 123h128v37H904v-37l128-123H904z"/>
   </g>
   <g fill="#edae35" stroke="#f7d376" stroke-width="7" stroke-linejoin="round" filter="url(#shadow)">
-    <g id="tile"><rect x="0" y="0" width="150" height="150" rx="4"/><path d="M28 25h94l-47 47zm0 100h94l-47-47zm0-100v100l47-50zm94 0v100l-47-50z" fill="#4a2b18"/><path d="M28 25l94 100M122 25L28 125" fill="none" stroke="#ffd670" stroke-width="22"/></g>
+    <defs><g id="tile"><rect x="0" y="0" width="150" height="150" rx="4"/><path d="M28 25h94l-47 47zm0 100h94l-47-47zm0-100v100l47-50zm94 0v100l-47-50z" fill="#4a2b18"/><path d="M28 25l94 100M122 25L28 125" fill="none" stroke="#ffd670" stroke-width="22"/></g></defs>
     <use href="#tile" x="112" y="410"/><use href="#tile" x="362" y="410"/><use href="#tile" x="612" y="410"/><use href="#tile" x="862" y="410"/>
   </g>
 </svg>
