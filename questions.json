@@ -56,10 +56,11 @@
     "instructions": "Press Start. Go around the team. Each player says one animal; every answer must be different and later in the alphabet than the one before it."
   },
   {
-    "text": "Find the rule: 123 = 14 and 234 = 29. What is 34?",
-    "answer": "25. Square each digit and add: 3² + 4².",
+    "text": "",
+    "answer": "ROSE.",
     "sourceNumber": 43,
-    "instructions": "Use the two examples only. The team gives one final answer within 30 seconds."
+    "instructions": "",
+    "type": "preview"
   },
   {
     "text": "Which WWII cipher machine is shown?\nA. Enigma  B. Bombe  C. Telegraph  D. Typewriter",
