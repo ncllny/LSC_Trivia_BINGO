@@ -105,14 +105,14 @@
     "instructions": "Press Start. Show one landmark at a time with Next/Previous. Each player identifies the landmark and country.",
     "type": "relay8",
     "images": [
-      "question-images/tile-18-01-eiffel-tower.png",
-      "question-images/tile-18-02-taj-mahal.png",
-      "question-images/tile-18-03-great-wall.png",
-      "question-images/tile-18-04-pyramids-giza.png",
-      "question-images/tile-18-05-statue-liberty.png",
-      "question-images/tile-18-06-burj-khalifa.png",
-      "question-images/tile-18-07-colosseum.png",
-      "question-images/tile-18-08-houses-parliament.png"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/EiffelTower.jpg?width=1920",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Taj_Mahal%2C_Agra%2C_India_edit2.jpg/1920px-Taj_Mahal%2C_Agra%2C_India_edit2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/A_spectacular_view_of_the_Great_Wall_of_China.jpg?width=1920",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/The_Giza_Pyramids.jpg?width=1920",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Liberty%2C_NY.jpg?width=1920",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Burj_Khalifa.jpg?width=1920",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Colosseum_romanum.jpg?width=1920",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/2016-02_Palace_of_Westminster.jpg?width=1920"
     ]
   },
   {
