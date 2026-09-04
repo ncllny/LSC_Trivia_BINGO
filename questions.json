@@ -21,10 +21,10 @@
     "sourceNumber": 19
   },
   {
-    "text": "Give a 4-letter word answer.",
+    "text": "Study the symbols and give one final answer.",
     "answer": "MOON.",
     "sourceNumber": 25,
-    "instructions": "Give a 4-letter word answer.",
+    "instructions": "Study the symbols and give one final answer.",
     "type": "preview",
     "visualOnly": true
   },
@@ -57,11 +57,12 @@
     "instructions": "Press Start. Go around the team. Each player says one animal; every answer must be different and later in the alphabet than the one before it."
   },
   {
-    "text": "",
+    "text": "Study the symbols and give one final answer.",
     "answer": "ROSE.",
     "sourceNumber": 43,
-    "instructions": "",
-    "type": "preview"
+    "instructions": "Study the symbols and give one final answer.",
+    "type": "preview",
+    "visualOnly": true
   },
   {
     "text": "Which WWII cipher machine is shown?\nA. Enigma  B. Bombe  C. Telegraph  D. Typewriter",
