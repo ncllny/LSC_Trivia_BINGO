@@ -99,7 +99,7 @@
   },
   {
     "text": "Show 8 landmarks. Each player names the landmark and its country.",
-    "answer": "1. Eiffel Tower—France; 2. Taj Mahal—India; 3. Great Wall of China—China; 4. Pyramids of Giza—Egypt; 5. Statue of Liberty—United States; 6. Burj Khalifa—United Arab Emirates; 7. Colosseum—Italy; 8. Houses of Parliament—United Kingdom.",
+    "answer": "1. Eiffel Tower—France; 2. Taj Mahal—India; 3. Great Wall of China—China; 4. Pyramids of Giza—Egypt; 5. Statue of Liberty—United States; 6. Burj Khalifa—United Arab Emirates; 7. Colosseum—Italy; 8. Big Ben—United Kingdom.",
     "sourceNumber": 49,
     "instructions": "Press Start. Show one landmark at a time with Next/Previous. Each player identifies the landmark and country.",
     "type": "relay8",
