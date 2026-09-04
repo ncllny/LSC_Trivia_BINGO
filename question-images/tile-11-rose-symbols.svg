@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Symbol puzzle">
+  <defs>
+    <linearGradient id="board" x2="0" y2="1"><stop stop-color="#202226"/><stop offset="1" stop-color="#101113"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#board)"/>
+  <rect x="28" y="28" width="1144" height="619" rx="12" fill="none" stroke="#f5d30a" stroke-width="24"/>
+  <g fill="none" stroke-linejoin="round" stroke-width="10" filter="url(#glow)">
+    <g stroke="#e51d2a"><rect x="150" y="190" width="94" height="265"/><path d="M150 278h94M150 366h94M150 190l94 176M244 190l-94 176"/></g>
+    <g stroke="#39c8ee"><rect x="390" y="185" width="94" height="270"/><path d="M437 185v270M390 275h94M390 365h94"/></g>
+    <g stroke="#9e57e5"><path d="M675 192l46 19-17 43 40 20-19 45 38 20-20 44-49-20 18-42-40-20 19-45-38-19z"/></g>
+    <g stroke="#d4a23a"><rect x="930" y="190" width="76" height="260"/><path d="M930 255h76M930 320h76M930 385h76"/></g>
+  </g>
+</svg>
+
