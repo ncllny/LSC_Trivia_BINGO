@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1200 800" role="img" aria-label="Symbol puzzle">
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#452d20"/><stop offset="1" stop-color="#2d1c14"/></linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="#8d6a50" opacity=".18"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/><rect width="1200" height="800" fill="url(#dots)"/>
+  <g fill="#087d52" stroke="#d8c28c" stroke-width="7" stroke-linejoin="round" filter="url(#shadow)">
+    <path d="M105 105h160v34H105z M115 250l70-88 70 88zm27-29h86l-43-54z"/>
+    <path d="M390 112l28-28 73 73 73-73 28 28-73 73 73 73-28 28-73-73-73 73-28-28 73-73z"/>
+    <path d="M640 112l28-28 73 73 73-73 28 28-73 73 73 73-28 28-73-73-73 73-28-28 73-73z"/>
+    <path d="M904 104h178v37l-128 123h128v37H904v-37l128-123H904z"/>
+  </g>
+  <g fill="#edae35" stroke="#f7d376" stroke-width="7" stroke-linejoin="round" filter="url(#shadow)">
+    <defs><g id="tile"><rect x="0" y="0" width="150" height="150" rx="4"/><path d="M28 25h94l-47 47zm0 100h94l-47-47zm0-100v100l47-50zm94 0v100l-47-50z" fill="#4a2b18"/><path d="M28 25l94 100M122 25L28 125" fill="none" stroke="#ffd670" stroke-width="22"/></g></defs>
+    <use href="#tile" x="112" y="510"/><use href="#tile" x="362" y="510"/><use href="#tile" x="612" y="510"/><use href="#tile" x="862" y="510"/>
+  </g>
+</svg>
+
