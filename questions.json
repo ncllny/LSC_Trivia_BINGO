@@ -21,11 +21,12 @@
     "sourceNumber": 19
   },
   {
-    "text": "",
+    "text": "Give a 4-letter word answer.",
     "answer": "MOON.",
     "sourceNumber": 25,
-    "instructions": "",
-    "type": "preview"
+    "instructions": "Give a 4-letter word answer.",
+    "type": "preview",
+    "visualOnly": true
   },
   {
     "text": "Team relay: one by one, each player names a different country and its continent.",
