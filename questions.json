@@ -97,9 +97,21 @@
     "sourceNumber": 21
   },
   {
-    "text": "Show 8 landmarks and 8 countries. One match per player.",
-    "answer": "8 correct matches.",
-    "sourceNumber": 49
+    "text": "Show 8 landmarks. Each player names the landmark and its country.",
+    "answer": "1. Eiffel Tower—France; 2. Taj Mahal—India; 3. Great Wall of China—China; 4. Pyramids of Giza—Egypt; 5. Statue of Liberty—United States; 6. Burj Khalifa—United Arab Emirates; 7. Colosseum—Italy; 8. Houses of Parliament—United Kingdom.",
+    "sourceNumber": 49,
+    "instructions": "Press Start. Show one landmark at a time with Next/Previous. Each player identifies the landmark and country.",
+    "type": "relay8",
+    "images": [
+      "question-images/tile-18-01-eiffel-tower.png",
+      "question-images/tile-18-02-taj-mahal.png",
+      "question-images/tile-18-03-great-wall.png",
+      "question-images/tile-18-04-pyramids-giza.png",
+      "question-images/tile-18-05-statue-liberty.png",
+      "question-images/tile-18-06-burj-khalifa.png",
+      "question-images/tile-18-07-colosseum.png",
+      "question-images/tile-18-08-houses-parliament.png"
+    ]
   },
   {
     "text": "The more you take, the more you leave behind. What are they?",
