@@ -21,10 +21,10 @@
     "sourceNumber": 19
   },
   {
-    "text": "Study the symbols and give one final answer.",
+    "text": "Study the symbols and give one final 4-letter word answer.",
     "answer": "MOON.",
     "sourceNumber": 25,
-    "instructions": "Study the symbols and give one final answer.",
+    "instructions": "Study the symbols and give one final 4-letter word answer.",
     "type": "preview",
     "visualOnly": true
   },
@@ -48,7 +48,7 @@
     "text": "Look at the picture. What letter replaces the question mark?",
     "answer": "F — it stands for Five.",
     "sourceNumber": 55,
-    "instructions": "The letters are the first letters of the numbers One to Ten. Take one final answer."
+    "instructions": "Look at the picture. What letter replaces the question mark?"
   },
   {
     "text": "Alphabet animal relay: each team member says a different animal in alphabetical order.",
@@ -57,10 +57,10 @@
     "instructions": "Press Start. Go around the team. Each player says one animal; every answer must be different and later in the alphabet than the one before it."
   },
   {
-    "text": "Study the symbols and give one final answer.",
+    "text": "Study the symbols and give one final 4-letter word answer.",
     "answer": "ROSE.",
     "sourceNumber": 43,
-    "instructions": "Study the symbols and give one final answer.",
+    "instructions": "Study the symbols and give one final 4-letter word answer.",
     "type": "preview",
     "visualOnly": true
   },
@@ -80,7 +80,7 @@
     "text": "Use the picture to find the one-number answer.",
     "answer": "8. The pairs spell EIGHT.",
     "sourceNumber": 50,
-    "instructions": "Use the two hints in the picture. For each pair, the first digit names a number and the second digit selects a letter from that number word. Give the final answer as one number."
+    "instructions": "Use the picture to find the one-number answer."
   },
   {
     "text": "What comes once in a minute, twice in a moment, but never in a thousand years?",
