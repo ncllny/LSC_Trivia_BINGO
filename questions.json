@@ -66,10 +66,11 @@
     "sourceNumber": 26
   },
   {
-    "text": "Solve the 3 anagrams together. One anagram appears in each round.",
-    "answer": "Astronomy, Force, Brain.",
+    "text": "Solve the 5 anagrams together. One anagram appears in each round.",
+    "answer": "LISTEN = Silent; EARTH = Heart; ELBOW = Below; DUSTY = Study; ANGEL = Glean.",
     "sourceNumber": 59,
-    "instructions": "Press Start. Solve the anagram on screen, then press Next for the next one. The team must solve all three within the time limit."
+    "instructions": "Press Start. Solve one anagram at a time with Next/Previous. The team must solve all five within the time limit.",
+    "type": "relay5"
   },
   {
     "text": "Use the picture to find the one-number answer.",
