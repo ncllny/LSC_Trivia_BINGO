@@ -62,7 +62,7 @@
 
     <section id="settings" class="view studio-view">
       <div class="section-heading"><p class="eyebrow">Control room</p><h1>Question studio</h1><p>Set up the match, grid and every prompt before the game.</p></div>
-      <div class="question-list-header"><div><h2>Grid questions</h2><p id="question-count">25 prompts</p><p class="note">Set each question’s own time and type here; players cannot see these settings.</p></div><label class="win-condition"><strong>Win condition</strong><select id="win-condition"><option value="3">3 in a row wins</option><option value="4">4 in a row wins</option></select></label></div>
+      <div class="question-list-header"><div><h2>Grid questions</h2><p id="question-count">25 prompts</p><p class="note">Set each question’s own time and type here; players cannot see these settings.</p></div><p class="note"><strong>Win condition:</strong> First to make 3 in a row wins.</p></div>
       <div id="question-editor" class="question-editor"></div>
     </section>
 
@@ -80,7 +80,7 @@
   <section id="setup-stage" class="setup-stage" aria-label="Start game setup">
     <div class="setup-card">
       <div id="setup-intro"><p class="eyebrow">Welcome</p><h1>Trivia BINGO</h1><p>Set up the teams, then begin the match.</p><button id="setup-begin" class="button dark">Start</button></div>
-      <form id="quick-setup" class="hidden"><p class="eyebrow">Match setup</p><h1>Who starts first?</h1><label>Starting team <select id="setup-starting-team"><option value="0">Team Red</option><option value="1">Team Blue</option></select></label><button class="button dark" type="submit">Start game</button></form>
+      <form id="quick-setup" class="hidden"><p class="eyebrow">Match setup</p><h1>Team Red starts first</h1><p>First team to make 3 in a row wins.</p><button class="button dark" type="submit">Start game</button></form>
     </div>
   </section>
 
